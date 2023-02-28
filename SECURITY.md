@@ -1,13 +1,25 @@
-# Security
+# Security Policy
 
-## Reporting Vulnerabilities
+## Reporting a Vulnerability
 
-We use Github's Security advisories for reporting security vulnerabilities.
+Please report security issues to uptime@kuma.pet.
 
-You can open a private report in the [advisories section](https://github.com/kumahq/kuma/security/advisories).
+Do not use the issue tracker or discuss it in the public as it will cause more damage.
 
-To learn more about this reporting checkout the [Github docs](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability).
+## Supported Versions
 
-## Public Disclosure
+### Uptime Kuma Versions
 
-Security vulnerabilities will be disclosed via release notes, issues and Github advisories with severity score higher than [4.0](https://www.first.org/cvss/calculator/3.1) will have an advisory published.
+You should use or upgrade to the latest version of Uptime Kuma. All `1.X.X` versions are upgradable to the lastest version.
+
+### Upgradable Docker Tags
+
+| Tag | Supported          |
+| ------- | ------------------ |
+| 1 | :white_check_mark: |
+| 1-debian | :white_check_mark: |
+| latest | :white_check_mark: |
+| debian | :white_check_mark: |
+| 1-alpine | ⚠️ Deprecated |
+| alpine | ⚠️ Deprecated |
+| All other tags  | ❌ |

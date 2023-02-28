@@ -1,19 +1,15 @@
-# IDE: Goland
-.idea/
-
-# IDE: VS Code
-.vscode/
-
-# CI
-build/
-
-# macOS
+node_modules
 .DS_Store
+dist
+dist-ssr
+*.local
+.idea
 
-# Release artifacts
-.cr-release-packages
-*.test
+/data
+!/data/.gitkeep
+.vscode
 
-# to embed ebpf programs by using go:embed, we have to copy programs first
-pkg/transparentproxy/ebpf/programs/amd64/mb_*
-pkg/transparentproxy/ebpf/programs/arm64/mb_*
+/private
+/out
+/tmp
+.env
